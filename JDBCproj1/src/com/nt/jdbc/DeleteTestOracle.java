@@ -20,7 +20,7 @@ public class DeleteTestOracle {
 			if(sc!=null) {
 				System.out.println("Enter start range of avg::");
 				startAvg=sc.nextFloat();//gives 40
-				System.out.println("Enter te range of avg::");
+				System.out.println("Enter the range of avg::");
 				endAvg=sc.nextFloat();//gives 60 
 			}
 			//load jdbc driver class (optional)
