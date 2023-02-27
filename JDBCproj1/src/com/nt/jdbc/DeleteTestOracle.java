@@ -16,7 +16,7 @@ public class DeleteTestOracle {
 			sc = new Scanner(System.in);
 			
 			//read inputs
-			float startAvg=0.0f, endAvg=0.0f;
+			float startAvg=0.00f, endAvg=0.00f;
 			if(sc!=null) {
 				System.out.println("Enter start range of avg::");
 				startAvg=sc.nextFloat();//gives 40
