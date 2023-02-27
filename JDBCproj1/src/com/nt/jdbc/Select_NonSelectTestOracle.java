@@ -50,7 +50,7 @@ public class Select_NonSelectTestOracle {
 					}//if
 				}//if
 				else {
-					System.out.println("NON-SELECT sql query executed");
+					System.out.println("NON-SELECT SQL query executed");
 					int count=st.getUpdateCount();
 					System.out.println(count+"no.of records are effected");
 				}//else
