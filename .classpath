@@ -8,5 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/sqldeveloper-23.1.0.097.1607-x64/sqldeveloper/sqldeveloper/extensions/oracle.sqldeveloper.pgql/lib/ojdbc8.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ravid/Downloads/mysql-connector-java-8.0.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ravid/Downloads/postgresql-42.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
