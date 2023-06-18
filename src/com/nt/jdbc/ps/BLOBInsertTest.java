@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class BLOBInsertTest {
-	public static final String BLOB_INSERT_QUERY = ("INSERT INTO JDBC_ACTOR_INFO VALUES(ACTOR_ID_SEQ.NEXTVAL,?,?,?");
+	public static final String BLOB_INSERT_QUERY = ("INSERT INTO JDBC_ACTOR_INFO VALUES(ACTOR_ID_SEQ.NEXTVAL,?,?,?)");
 	public static void main(String[] args) {
 		String actorName = null, actorAddrs = null, photoLocation = null;
 		
@@ -23,7 +23,7 @@ public class BLOBInsertTest {
 				actorAddrs = sc.next();
 				
 				System.out.println("Enter actress photoLocation:");
-				photoLocation = sc.next();
+				photoLocation = sc.next().replace("?", "");
 			}
 			try(Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","tiger");
 					PreparedStatement ps = con.prepareStatement(BLOB_INSERT_QUERY);
