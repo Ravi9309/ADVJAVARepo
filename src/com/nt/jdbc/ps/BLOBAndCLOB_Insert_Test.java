@@ -33,7 +33,7 @@ public class BLOBAndCLOB_Insert_Test {
 					photoLocation = sc.next();
 					
 					System.out.println("Enter student resumeLocation");
-			
+					resumeLocation = sc.next();
 			}
 			//Established the connection 
 			try(Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","tiger");
